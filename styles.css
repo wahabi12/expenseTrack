@@ -1,0 +1,64 @@
+.large {
+  font-weight: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.me {
+  border: 1px solid red;
+  margin-right: 890px;
+  margin-bottom: 50px;
+}
+
+.spa {
+  margin-left: 10px;
+}
+
+.me1 {
+  border: 1px solid rgb(17, 35, 134);
+  margin-right: 890px;
+  margin-bottom: 50px;
+}
+
+.color {
+  border: 1px solid rgb(17, 35, 134);
+  background-color: white;
+  color: rgb(17, 35, 134);
+}
+
+.color1 {
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+}
+
+label {
+  font-style: italic;
+}
+
+.container {
+  display: flex;
+}
+
+.yep {
+  color: hsl(221, 40%, 48%);
+}
+
+.n1 {
+  color: hsl(112, 34%, 34%);
+}
+
+.n2 {
+  color: red;
+}
+
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.space1 {
+  padding-right: 30px;
+}

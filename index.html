@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row px-4">
+            <h4 class="pt-4">EXPENSE TRACKER</h4>
+            <div class="col-md-6 ">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <label id="text" for="exampleFormControlInput1" class="form-label">Please Enter Your
+                            Budget</label>
+                        <input type="number" class="form-control" id="input1">
+                        <button id="button1" type="button"
+                            class="btn btn-light text-success border-success mt-3">Calculate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <h5>BUDGET <br>
+                    <i class="fa-solid fa-id-card yep text-center fs-2 pt-3"></i> <br>
+                    <h1 id="budget" class="budget fs-1 text-success">0 CFA</h1>
+                    <p>Expense Title</p>
+
+                </h5>
+            </div>
+            <div class="col-md-2 text-center">
+                <H5>EXPENSE <br>
+                    <i class="fa-solid fa-credit-card yep fs-2 pt-3"></i> <br>
+                    <h1 id="expenses" class="expense fs-1 text-danger">0 CFA</h1>
+                    <p>Expense Value</p>
+
+                </H5>
+            </div>
+            <div class="col-md-2 text-center">
+                <H5>BALANCE <br>
+                    <i class="fa-solid fa-dollar-sign yep fs-2 pt-3"></i>
+                    <br>
+                    <h1 id="balances" class="balance fs-1">0 CFA</h1>
+                    </H1>
+
+                </H5>
+            </div>
+        </div>
+    </div>
+    <!--     <div class="container">
+       <div class="row text-center">
+           <div class="col-md-6"></div>
+           <div class="col-md-6 d-flex expense_liste"  >
+               
+           </div>
+       </div>
+   </div>
+
+ -->
+
+
+
+    <div class="container-fluid">
+        <div class="row px-4 py-4">
+            <div class="col-md-6  ">
+                <form id="form">
+                    <div class="card border-danger">
+                        <div class="card-body">
+                            <label for="exampleFormControlInput2" class="form-label">Please Enter Your Expense</label>
+                            <input type="text" required class="form-control" id="input2">
+                            <label for="exampleFormControlInput3" class="form-label">Please Enter Your Expense
+                                Amount</label>
+                            <input id="amount" required type="number" class="form-control">
+                            <button id="notification" type="submit"
+                                class="btn btn-light text-success mt-3 text-danger border-danger">Add Expense</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 " id="expense_liste">
+
+            </div>
+            <!-- <div class="col-md-2 text-center expense_value">
+                <p>Expense Value</p>
+            </div>
+            <div class="col-2 text-center"></div> -->
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
